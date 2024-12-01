@@ -212,7 +212,7 @@ ol {
   align-items:center;
 }
 
-.search-form__label:hovernot(::placeholder) {
+.search-form__label:hover:not(::placeholder) {
   text-decoration:underline;
 }
 
