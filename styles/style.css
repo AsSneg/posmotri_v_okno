@@ -17,7 +17,6 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
-  justify-content:center;
   align-items: center;
 }
 
@@ -42,9 +41,11 @@ ol {
 
 .content {
   display:flex;
-  padding:133px 30px;
+  padding: 133px 30px;
+  /* justify-content: center; */
   gap:30px;
   position:relative;
+  /* max-width: 758px; */
 }
 
 .result {
@@ -82,14 +83,14 @@ ol {
 .content__list {
   overflow: auto;
   height:298px;
-  width:415px;
+  width: 399px;
   position:relative;
 }
 
 .content__list-item {
   display:flex;
   height:107px;
-  max-width:394px;
+  /* max-width:394px; */
   margin:4px;
 }
 
@@ -99,7 +100,7 @@ ol {
 
 .content__video-card {
   display:flex;
-  min-width:394px;
+  min-width: 375px;
   justify-content:space-between;
 }
 
