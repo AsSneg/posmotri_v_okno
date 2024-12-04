@@ -42,10 +42,8 @@ ol {
 .content {
   display:flex;
   padding: 133px 30px;
-  /* justify-content: center; */
   gap:30px;
   position:relative;
-  /* max-width: 758px; */
 }
 
 .result {
@@ -90,8 +88,6 @@ ol {
 .content__list-item {
   display:flex;
   height:107px;
-  /* max-width:394px; */
-  margin:4px;
 }
 
 .content__list-item:not(:last-child) {
@@ -100,7 +96,7 @@ ol {
 
 .content__video-card {
   display:flex;
-  min-width: 375px;
+  min-width: 380px;
   justify-content:space-between;
 }
 
@@ -146,7 +142,7 @@ ol {
   gap:6px;
   color: #FFFFFF;
   margin:2px 0 4px 2px;
-  max-width:200px;
+  width:180px;
 }
 
 .search-form__fieldset-title {
