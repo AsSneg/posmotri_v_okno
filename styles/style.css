@@ -42,7 +42,8 @@ ol {
 .content {
   display:flex;
   padding: 133px 30px;
-  gap:30px;
+  width:1200px;
+  justify-content:space-between;
   position:relative;
 }
 
@@ -81,8 +82,9 @@ ol {
 .content__list {
   overflow: auto;
   height:298px;
-  width: 399px;
+  width: 413px;
   position:relative;
+  margin-left:30px;
 }
 
 .content__list-item {
@@ -96,7 +98,7 @@ ol {
 
 .content__video-card {
   display:flex;
-  min-width: 380px;
+  min-width: 396px;
   justify-content:space-between;
 }
 
@@ -161,6 +163,7 @@ ol {
   text-transform:uppercase;
   color: #FFFFFF;
   margin-top:3px;
+  margin-left:30px;
 }
 
 .content__accent {
